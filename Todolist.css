@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid;
+}
+
+.close {
+  cursor: pointer;
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.item:hover .close {
+  opacity: 1;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid greenyellow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strike {
+  text-decoration: line-through;
+}
